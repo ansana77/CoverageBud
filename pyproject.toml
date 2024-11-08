@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chatpdf2"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain-community = "^0.3.0"
+streamlit = "^1.38.0"
+faiss-cpu = "^1.8.0.post1"
+langchain-groq = "^0.2.0"
+langchain-experimental = "^0.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
